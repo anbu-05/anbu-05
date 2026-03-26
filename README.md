@@ -6,9 +6,11 @@ If you look at the engineering iceberg, you'll find me around the hardware-firmw
 
 ---
 
-## Mars Rover — Team Vyadh
+## Mars Rover - Team Vyadh
 
 I've been the electrical backbone of a 33-member multidisciplinary rover team for two years, going from junior member to Electrical Head. Most of what I know about hardware came from this.
+
+![rover moving](/attachments/rover_moving.mp4)
 
 ### Electrical & Firmware
 
