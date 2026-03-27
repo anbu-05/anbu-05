@@ -21,7 +21,7 @@ to carry mixed data (arm position, science feedback, encoder states) on a noise-
 
 i also built the traversal control board of the rover you see moving above. it uses an **STM32F446ZE nucleo** board and six **BTS7960 motor drivers**. it can control six seperate 100W 24v motors
 
-![trav_ctrl_board](/attachments/trav_ctrl_board.png)
+![trav_ctrl_board](/attachments/half_trav_ctrl_board.png)
 
 ### PCB Design
 
@@ -42,7 +42,6 @@ i have also designed a **STM32F103 + RFM98W LoRa devboard** and a 55A 24V motor 
 ![motor driver](/attachments/half_motor_driver.png)
 
 ### Mechanical
-
 
 ---
 
