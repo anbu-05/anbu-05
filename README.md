@@ -13,9 +13,9 @@ I've been the electrical backbone of a 33-member multidisciplinary rover team fo
 ![rover moving](/attachments/rover_moving.gif)
 
 ### Electrical & Firmware
-i built a custom **LoRa RF link (SX1278)** for 1 km bidirectional telemetry - instead of off-the-shelf RC, 
+i built a custom **LoRa RF link (SX1278)** for 1 km bidirectional control and telemetry
 
-to carry mixed data (arm position, science feedback, encoder states) on a noise-resistant 433MHz channel. 
+compared to an off-the-shelf RC, it can carry mixed data (arm position, science feedback, encoder states) on a noise-resistant 433MHz channel.
 
 ![controller](/attachments/half_controller.png)
 
@@ -47,6 +47,15 @@ i have also designed a **STM32F103 + RFM98W LoRa devboard** and a 55A 24V motor 
 
 ## RISCV SoC
 
+[github.com/anbu-05/Tetrel-RISCV](https://github.com/anbu-05/Tetrel-RISCV)
+ 
+A RISC-V SoC built around PicoRV32 with a custom AXI4-lite interconnect, SRAM, UART, and GPIO.
+ 
+The interesting part isn't the peripherals — it's the interconnect design. Each peripheral assumes it lives at address `0x0`. The interconnect handles offset translation, which means peripheral RTL is completely decoupled from the system memory map. Adding a new peripheral doesn't touch the core or any existing slave.
+ 
+The verification flow uses a signature-based approach — firmware writes pass/fail values to reserved memory addresses. No testbench rewrites when a new peripheral gets added.
+ 
+C firmware built with the RISC-V GCC toolchain and a custom Makefile. Currently migrating from QuestaSim to Cadence Xcelium for a unified toolchain toward physical design.
 
 ---
 
