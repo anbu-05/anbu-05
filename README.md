@@ -48,11 +48,6 @@ i also made
 
 ---
 
-## PLC Controls — Vanderlande India Pvt. Ltd.
-
-
----
-
 ## Skills
 
 **RTL & Digital Design** — Verilog, SystemVerilog, AXI4-lite, FPGA (Cyclone IV, DE2-115), RISC-V assembly  
