@@ -41,7 +41,7 @@ i have also designed a **STM32F103 + RFM98W LoRa devboard** and a 55A 24V motor 
 ![LoRa_DB](/attachments/half_LoRa_DB.png)
 ![motor driver](/attachments/half_motor_driver.png)
 
-### Mechanical
+<!-- ### Mechanical -->
 
 ---
 
