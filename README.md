@@ -10,14 +10,33 @@ If you look at the engineering iceberg, you'll find me around the hardware-firmw
 
 I've been the electrical backbone of a 33-member multidisciplinary rover team for two years, going from junior member to Electrical Head. Most of what I know about hardware came from this.
 
-![rover moving](/attachments/rover_moving.webm)
+![rover moving](/attachments/rover_moving.gif)
 
 ### Electrical & Firmware
+i built a custom **LoRa RF link (SX1278)** for 1 km bidirectional telemetry - instead of off-the-shelf RC, 
 
+to carry mixed data (arm position, science feedback, encoder states) on a noise-resistant 433MHz channel. 
+
+![controller](/attachments/controller.png)
+
+i also built the traversal control board of the rover you see moving above. it uses an **STM32F446ZE nucleo** board and six **BTS7960 motor drivers**. it can control six seperate 100W 24v motors
+
+![trav_ctrl_board](/attachments/trav_ctrl_board.png)
 
 ### PCB Design
 
+i made a power distribution board able to supply >80A of continuous current to six slot-able cytron MD10C motor drivers at 24v, fits within 100mm x 100mm, has per-rail current sensing shunts
 
+that's a lot of words, but this was the end product:
+
+![PDB_1](/attachments/PDB_1.png)
+
+and this is the Altium design
+
+![PDB_2](/attachments/PDB_2.png)
+![PDB_3](/attachments/PDB_3.png)
+
+i also made
 
 ### Mechanical
 
