@@ -17,7 +17,7 @@ i built a custom **LoRa RF link (SX1278)** for 1 km bidirectional telemetry - in
 
 to carry mixed data (arm position, science feedback, encoder states) on a noise-resistant 433MHz channel. 
 
-![controller](/attachments/controller.png)
+![controller](/attachments/half_controller.png)
 
 i also built the traversal control board of the rover you see moving above. it uses an **STM32F446ZE nucleo** board and six **BTS7960 motor drivers**. it can control six seperate 100W 24v motors
 
@@ -29,14 +29,17 @@ i made a power distribution board able to supply >80A of continuous current to s
 
 that's a lot of words, but this was the end product:
 
-![PDB_1](/attachments/PDB_1.png)
+![PDB_1](/attachments/half_PDB_1.png)
 
 and this is the Altium design
 
-![PDB_2](/attachments/PDB_2.png)
-![PDB_3](/attachments/PDB_3.png)
+![PDB_2](/attachments/half_PDB_2.png)
+![PDB_3](/attachments/half_PDB_3.png)
 
-i also made
+i have also designed a **STM32F103 + RFM98W LoRa devboard** and a 55A 24V motor driver board based on the **IFX007T half H-bridge IC**. these designs have been sent for manufacturing the PCBs, and i'll get it soldered soon 
+
+![LoRa_DB](/attachments/half_LoRa_DB.png)
+![motor driver](/attachments/half_motor_driver.png)
 
 ### Mechanical
 
