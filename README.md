@@ -76,4 +76,3 @@ C firmware built with the RISC-V GCC toolchain and a custom Makefile. Currently 
 
 - 📧 anbuazhagudurai1@gmail.com
 - 💼 [linkedin.com/in/anbu2005](https://linkedin.com/in/anbu2005)
-- 🌐 [Portfolio](https://anbu-05.github.io)
