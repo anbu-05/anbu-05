@@ -56,6 +56,8 @@ i have also designed a **STM32F103 + RFM98W LoRa devboard** and a 55A 24V motor 
   <img src="attachments/motor_driver.png" width="325"/>
 </p>
 
+[more images of my other PCBs](https://github.com/anbu-05/Portfolio/blob/main/PCB-design.md)
+
 <!-- ### Mechanical -->
 
 ---
