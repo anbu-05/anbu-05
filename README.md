@@ -4,7 +4,8 @@ RTL design | Electronics & Embedded Systems | PCB Design
 
 If you look at the engineering iceberg, you'll find me around the hardware-firmware layer - I've worked on designing RTL, designing the hardware the firmware goes on, written the firmware itself, and put all of this together on physical hardware.
 
-[resume](https://drive.google.com/drive/folders/1oRJanU7ESqI9qCizsij_A0dgBacmqvln?usp=sharing)
+> **Latest resume/CV:** [Google Drive](https://drive.google.com/drive/folders/1oRJanU7ESqI9qCizsij_A0dgBacmqvln?usp=sharing)  
+> **Full portfolio:** [github.com/anbu-05/Portfolio](https://github.com/anbu-05/Portfolio)
 
 ---
 
