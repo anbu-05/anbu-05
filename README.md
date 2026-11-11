@@ -39,7 +39,8 @@ a power distribution board for six slot-in Cytron MD10C motor drivers: >80 A con
 and an **STM32F103 + LoRa** board to put the radio link on one PCB. rev 1 is built - bring-up found a power issue, and rev 2 fixes it.
 
 <p align="center">
-  <img src="attachments/lora_board.jpg" width="300"/>
+  <img src="attachments/lora_board.jpg" height="320"/>
+  <img src="attachments/lora_layout.jpg" height="320"/>
 </p>
 
 [more of my PCBs](https://github.com/anbu-05/Portfolio/blob/main/pcb-design/README.md)
@@ -56,7 +57,8 @@ remote internship, Sep 2026 - present. one **ESP32-S3** board that replaces four
 - requirements to an order-ready design in two weeks and five revisions, with BOM cost down 20%
 
 <p align="center">
-  <img src="attachments/controller_board.jpg" width="360"/>
+  <img src="attachments/controller_board.jpg" height="340"/>
+  <img src="attachments/controller_layout.jpg" height="340"/>
 </p>
 
 ---
